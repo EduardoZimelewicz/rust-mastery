@@ -12,6 +12,8 @@ fn main() {
     b = 42;
     println!("b = {} after", b);
 
-    let c = 123456789;
+    let mut c = 123456789;
     println!("c = {}, takes up {} bytes", c, mem::size_of_val(&c));
+    c = -1;
+    println!("c = {}", c);
 }
