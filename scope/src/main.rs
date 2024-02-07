@@ -10,7 +10,6 @@ fn scope_and_shadowing() {
     }
 
     println!("outside, a = {}", a);
-
 }
 
 fn main() {
