@@ -11,7 +11,7 @@ fn closures() {
     let a = 6;
     println!("{}", plus_one(a));
 
-    
+
 }
 
 fn main() {
